@@ -50,4 +50,12 @@ function mkheader() {
     print "<code>git clone git://github.com/nbirnel/bpc-furniture.git</code>"
     print "</p>"
     print "<table border=\"1\">"
+    print "    <tr>"
+    print "        <td>location</td>"
+    print "        <td>piece</td>"
+    print "        <td>D</td>"
+    print "        <td>H</td>"
+    print "        <td>W</td>"
+    print "        <td>photo</td>"
+    print "    </tr>"
 }
