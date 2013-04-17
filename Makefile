@@ -1,4 +1,6 @@
-all :: index.html thumbs
+all :: html thumbs
+
+html :: index.html
 
 index.html :: furniture.csv csv2htm-tbl
 	./csv2htm-tbl furniture.csv >$@
@@ -9,4 +11,4 @@ thumbs ::
 	cd thumbs/ && \
 	gm mogrify -size 60x60 *jpg -resize 60x60 +profile "*" 
 
-.PHONY :: all thumbs
+.PHONY :: all thumbs html
