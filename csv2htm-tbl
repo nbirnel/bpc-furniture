@@ -1,0 +1,49 @@
+#!/bin/awk -f
+
+BEGIN { 
+    FS = "," 
+    mkheader()
+}
+
+NR != 1 { 
+    loc = $1
+    piece = $2
+    d = $3
+    h = $4
+    w = $5
+    photo = $6
+    thumb = "./thumbs/" photo ".jpg"
+    jpg   = "./photos/"    photo ".jpg"
+    print "    <tr>"
+    print "        <td>" loc "</td>"
+    print "        <td>" piece "</td>"
+    print "        <td>" d  "</td>"
+    print "        <td>" h "</td>"
+    print "        <td>" w "</td>"
+    if (photo == "") { print "        <td>no photo</td>" }
+    else { print "        <td><a href=\"" jpg "\"><img src=" thumb " alt=" photo "/></a></td>" }
+    print "    </tr>"
+}
+
+END { 
+    print "</table>"
+}
+
+function mkheader() {
+    print "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\""
+    print "\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">"
+    print "<html>"
+    print ""
+    print "<head>"
+    print "	<title>Ballard Preschool Coop furniture</title>"
+    print "    <link rel=\"stylesheet\" type=\"text/css\" href=\"web.css\" />"
+    print "</head>"
+    print ""
+    print "<p>"
+    print "csv of this available <a href=\"./furniture.csv\">here</a>"
+    print "</p>"
+    print "<p>"
+    print "generated with <a href=\"./csv2htm-tbl\">this</a> script"
+    print "</p>"
+    print "<table border=\"1\">"
+}

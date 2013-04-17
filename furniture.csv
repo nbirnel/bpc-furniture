@@ -1,0 +1,119 @@
+location,piece,D,H,W,photo
+art,art drying rack,17.5,65,20,paper_drying_rack
+art,art room easel 1,?,?,?,art_room_easel_1
+art,art room easel 2,?,?,?,art_room_easel_2
+art,art supply cabinet by sink,23,79,40,art_supply_cabinet
+art,bins over sink,?,?,?,bins_over_sink_in_art
+art,chairs,?,?,?,chairs_in_art
+art,footstools,?,?,?,footstools_in_art
+art,paint shelf,11,37,84,shelves_in_art
+art,paper shelf,15,35,48,
+art,roll paper dispenser,?,?,?,roll_paper_dispenser
+art,table,54,21,54,round_table_in_art
+bathroom,poddy,?,?,?,bathroom_poddy
+bathroom,ring,?,?,?,bathroom_ring
+bathroom,stepstools,?,?,?,bathroom_step_stools
+blocks,carpet,103,-,143,carpet
+circle time,baseboard cover 1,11,18,75,magazine_racks_and_heater_covers
+circle time,baseboard cover 2,11,18,51,magazine_racks_and_heater_covers
+circle time,baseboard cover 3,11,18,51,magazine_racks_and_heater_covers
+circle time,bench covering fireplace - back,9.25,48,85.25,
+circle time,bench covering fireplace,26,19.5,85.25,
+circle time,bench altogether,35.35,67.5,85.25,
+circle time,cube between kitchen and circle,?,?,?,cube_between_kitchen_and_circle
+circle time,light brown cabinet,19,62,36,doored_cupboard_in_circle_time_corner
+circle time,sensory table,20,22,45,sensory_table
+circle time,shelf by circle,?,?,75,
+dramatic play,animal / puzzle cupboard w/ doors,11,40,83.5,short_bookshelf
+dramatic play,bench altogether,34.25,68,58.5,
+dramatic play,bench covering fireplace - back,17,48,58.5,
+dramatic play,bench covering fireplace,17.25,20,58.5,
+dramatic play,bin for blocks,?,?,?,bins_for_blocks
+dramatic play,bin,?,?,?,bin
+dramatic play,block shelf,9,40,41.5,bookshelf_for_blocks
+dramatic play,boards,?,?,?,boards
+dramatic play,brown double book case,12,48,48,brown_cubby
+dramatic play,chairs,?,?,?,more_dramatic_play_chairs
+dramatic play,dressup clothes shelf,11,67.25,32,dressup_wardrobe
+dramatic play,green sensory table,21,24.5,46,sensory_table-dramatic
+dramatic play,light brown bookshelf 1,11,67.5,32,bookshelf_for_bins-dramatic
+dramatic play,light brown bookshelf 2,11,67.5,32,bookshelf_for_bins-dramatic
+dramatic play,mirror,?,?,?,mirror_in_play_kitchen
+dramatic play,play crib and changing table,?,?,?,play_crib_and_changing_table
+dramatic play,play crib,?,?,?,play_crib
+dramatic play,play kitchen,17.5,34.75,51.5,play_kitchen_stove_fridge_and_sink
+dramatic play,play table and chairs,?,?,?,play_table_and_three_chairs
+dramatic play,round table,54,21,54,round_table-blocks
+dramatic play,shelf next to play kitchen,22.75,22,46.25,play_kitchen_shelf
+dramatic play,small table and chairs,?,?,?,small_table_and_chairs
+dramatic play,white cube shelf (25 cubes),15.5,73,72.5,white_cubby-blocks
+entry,back of cubbies,15,50,120,blackboard_back_of_cubbies_in_art
+entry,coat cubby 1,15,50,60,cubbys_in_entry_1
+entry,coat cubby 2,15,50,60,cubbys_in_entry_1
+entry,coat cubby 3,15,50,60,cubbys_in_entry_1
+entry,corkboard,?,?,?,corkboard_in_entryway
+entry,misc craft bookshelf,15,58,28.5,bookshelf_in_entryway
+entry,more bins,?,?,?,more_bins
+entry,name board,?,?,?,board_for_names
+entry,possibly not our chair,?,?,?,chair
+entry,vacuum,?,?,?,vacuum
+entry,whiteboard,?,?,?,whiteboard_in_entryway
+entry,writing table,28,22,72,low_table_in_entryway
+gym,gym basketball hoop,?,?,?,gym_basketball_hoop
+gym,gym mats,?,?,?,gym_mats
+kitchen,corner shelf by tuition box,15.5,36.5,15.5,
+kitchen,garbage laundry high chairs,?,?,?,garbage_laundy_high_chairs_and_wall_shelf
+kitchen,light brown cube shelf (16 cubes),15.25,59,59,cubes_in_kitchen
+kitchen,mini fridge,21,28,17.75,mini_fridge_microwave_and_toaster_oven
+kitchen,parent ed library / 1st aid shelf,13,59,24,first_aid_and_parent_ed_cabinets
+kitchen,pergo floor,210.5,-,114,pergo_floor
+kitchen,shelving between snack and circle 1,23,35.5,46.5,shelves_between_kitchen_and_circle
+kitchen,shelving between snack and circle 2,23,35.5,46.5,shelves_between_kitchen_and_circle
+kitchen,small shelf near 1st aid and phone shelf,11.5,31,24,first_aid_and_parent_ed_cabinets
+kitchen,snack table,60,18,29.75,kitchen_table
+outdoor,barbecue,?,?,?,barbecue
+outdoor,chalkboard easel,?,?,?,chalkboard_easel
+outdoor,gas station,?,?,?,gas_station
+outdoor,ladders,?,?,?,ladders
+outdoor,misc outdoor toys,?,?,?,misc_outdoor_toys
+outdoor,outdoor bin table,?,?,?,outdoor_bin_table
+outdoor,outdoor bins and toys,?,?,?,outdoor_bins_and_toys
+outdoor,outdoor hoops,?,?,?,outdoor_hoops
+outdoor,outdoor play kitchen,?,?,?,outdoor_play_kitchen
+outdoor,outdoor stool,?,?,?,outdoor_stool
+outdoor,outdoor table,?,?,?,outdoor_table
+outdoor,slide,?,?,?,slide
+outdoor,stairs outside,?,?,?,stairs_outside
+outdoor,tarp over sandbox,?,?,?,tarp_over_sandbox
+shed,shed adult wheelbarrows,?,?,?,shed_adult_wheelbarrows
+shed,shed bins 2,?,?,?,shed_bins_2
+shed,shed bins 3,?,?,?,shed_bins_3
+shed,shed bins 4,?,?,?,shed_bins_4
+shed,shed bins 5,?,?,?,shed_bins_5
+shed,shed bins 6,?,?,?,shed_bins_6
+shed,shed bins and slides,?,?,?,shed_bins_and_slides
+shed,shed bins,?,?,?,shed_bins
+shed,shed brooms,?,?,?,shed_brooms
+shed,shed pushbarrow,?,?,?,shed_pushbarrow
+shed,shed supplies,?,?,?,shed_supplies
+shed,shed suppliles and paint,?,?,?,shed_suppliles_and_paint
+shed,shed trikes,?,?,?,shed_trikes
+sibling care,changing table,19,40,37,sibling_care_changing_table
+sibling care,pak n play 1,28,30.5,39,sibling_care_bouncy_1
+sibling care,pak n play 2,28,30.5,39,sibling_care_bouncy_2
+sibling care,pak n play,29,33,39,sibling_care_bouncy_3
+sibling care,pak n play,29,33,39,sibling_care_bouncy_4
+sibling care,play table (legless),30,8.25,39,sibling_care_platform_with_mini_fridge
+sibling care,sibling care bins,?,?,?,sibling_care_bins
+sibling care,sibling care crib 1,?,?,?,sibling_care_crib_1
+sibling care,sibling care crib 2,?,?,?,sibling_care_crib_2
+sibling care,sibling care crib 3,?,?,?,sibling_care_crib_3
+sibling care,sibling care gate,?,?,?,sibling_care_gate
+sibling care,sibling care glider chair etc,?,?,?,sibling_care_glider_chair_etc
+sibling care,sibling care high chairs,?,?,?,sibling_care_high_chairs
+sibling care,sibling care rocking chair etc,?,?,?,sibling_care_rocking_chair_etc
+sibling care,sibling care toy,?,?,?,sibling_care_toy
+sibling care,sibling care wall shelf,?,?,?,sibling_care_wall_shelf
+sibling care,small shelf by door,11.5,29.5,28,sibling_care_book_case
+sibling care,white cube shelf 1(6 cubes),11.5,24,36,sibling_care_cubbies
+sibling care,white cube shelf 2(6 cubes),11.5,24,36,sibling_care_cubbies
