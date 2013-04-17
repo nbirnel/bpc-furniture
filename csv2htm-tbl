@@ -23,10 +23,19 @@ NR != 1 {
     if (photo == "") { print "        <td>no photo</td>" }
     else { print "        <td><a href=\"" jpg "\"><img src=\"" thumb "\" alt=\"" photo "\"/></a></td>" }
     print "    </tr>"
+
+    if ($0 !~ /[?-]/) {
+        ci = d * h * w
+        cf = ci/12.0/12.0/12.0
+        tot_cf += cf
+    }
 }
 
 END { 
     print "</table>"
+    print "<p>"
+    print tot_cf " total cubic feet measured"
+    
 }
 
 function mkheader() {
