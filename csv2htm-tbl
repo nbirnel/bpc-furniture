@@ -45,5 +45,9 @@ function mkheader() {
     print "<p>"
     print "generated with <a href=\"./csv2htm-tbl\">this</a> script"
     print "</p>"
+    print "<p>"
+    print "clone this page:"
+    print "<code>git clone git://github.com/nbirnel/bpc-furniture.git</code>"
+    print "</p>"
     print "<table border=\"1\">"
 }
