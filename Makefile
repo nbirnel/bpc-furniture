@@ -1,3 +1,5 @@
+all :: index.html thumbs
+
 index.html :: furniture.csv csv2htm-tbl
 	./csv2htm-tbl furniture.csv >$@
 
@@ -6,3 +8,5 @@ thumbs ::
 	cp -v photos/* thumbs/
 	cd thumbs/ && \
 	gm mogrify -size 60x60 *jpg -resize 60x60 +profile "*" 
+
+.PHONY :: all thumbs
