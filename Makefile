@@ -6,6 +6,7 @@ index.html :: furniture.csv csv2htm-tbl
 	./csv2htm-tbl furniture.csv >$@
 
 thumbs ::
+	mkdir -p thumbs
 	rm -fv thumbs/*
 	cp -v photos/* thumbs/
 	cd thumbs/ && \
