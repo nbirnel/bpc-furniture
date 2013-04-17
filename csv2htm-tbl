@@ -21,7 +21,7 @@ NR != 1 {
     print "        <td>" h "</td>"
     print "        <td>" w "</td>"
     if (photo == "") { print "        <td>no photo</td>" }
-    else { print "        <td><a href=\"" jpg "\"><img src=" thumb " alt=" photo "/></a></td>" }
+    else { print "        <td><a href=\"" jpg "\"><img src=\"" thumb "\" alt=\"" photo "\"/></a></td>" }
     print "    </tr>"
 }
 
