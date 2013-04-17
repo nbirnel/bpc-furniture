@@ -3,6 +3,7 @@
 BEGIN { 
     FS = "," 
     mkheader()
+    printf("( ") >"dimensions.tmp"
 }
 
 NR != 1 { 
@@ -11,6 +12,7 @@ NR != 1 {
     d = $3
     h = $4
     w = $5
+    dims = "(" $3 "*" $4 "*" $5 ") + "
     photo = $6
     thumb = "./thumbs/" photo ".jpg"
     jpg   = "./photos/"    photo ".jpg"
@@ -24,18 +26,19 @@ NR != 1 {
     else { print "        <td><a href=\"" jpg "\"><img src=\"" thumb "\" alt=\"" photo "\"/></a></td>" }
     print "    </tr>"
 
-    if ($0 !~ /[?-]/) {
-        ci = d * h * w
-        cf = ci/12.0/12.0/12.0
-        tot_cf += cf
+    if (dims !~ /[?-]/) {
+        printf("%s", dims) >"dimensions.tmp"
     }
 }
 
 END { 
     print "</table>"
     print "<p>"
-    print tot_cf " total cubic feet measured"
-    
+    printf("0 ) / 12 / 12 / 12\n") >"dimensions.tmp"
+    close("dimensions.tmp")
+    "/usr/bin/bc < dimensions.tmp" | getline cf
+    print cf " total cubic feet measured"
+    system("rm dimensions.tmp")    
 }
 
 function mkheader() {
