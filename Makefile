@@ -1,5 +1,7 @@
 all :: html thumbs
 
+index :: index.html
+
 html :: index.html
 
 index.html :: furniture.csv csv2htm-tbl

@@ -39,6 +39,17 @@ END {
     "/usr/bin/bc < dimensions.tmp" | getline cf
     print cf " total cubic feet measured"
     system("rm dimensions.tmp")    
+    print "<h2 id=\"Sources\">Sources</h2>"
+    print "<p>"
+    print "csv of this data available <a href=\"./furniture.csv\">here</a>"
+    print "</p>"
+    print "<p>"
+    print "page generated with <a href=\"./csv2htm-tbl\">this</a> script"
+    print "</p>"
+    print "<p>"
+    print "clone this page:"
+    print "<code>git clone git://github.com/nbirnel/bpc-furniture.git</code>"
+    print "</p>"
 }
 
 function mkheader() {
@@ -51,16 +62,7 @@ function mkheader() {
     print "    <link rel=\"stylesheet\" type=\"text/css\" href=\"web.css\" />"
     print "</head>"
     print ""
-    print "<p>"
-    print "csv of this data available <a href=\"./furniture.csv\">here</a>"
-    print "</p>"
-    print "<p>"
-    print "page generated with <a href=\"./csv2htm-tbl\">this</a> script"
-    print "</p>"
-    print "<p>"
-    print "clone this page:"
-    print "<code>git clone git://github.com/nbirnel/bpc-furniture.git</code>"
-    print "</p>"
+    print "<p><a href=\"#Sources\">Sources</a></p>"
     print "<table border=\"1\">"
     print "    <tr>"
     print "        <td>location</td>"
