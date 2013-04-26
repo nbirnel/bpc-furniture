@@ -41,6 +41,9 @@ END {
     system("rm dimensions.tmp")    
     print "<h2 id=\"Sources\">Sources</h2>"
     print "<p>"
+    print "original handwritten notes available <a href=\"./bpc-furniture.pdf\">here</a>"
+    print "</p>"
+    print "<p>"
     print "csv of this data available <a href=\"./furniture.csv\">here</a>"
     print "</p>"
     print "<p>"
